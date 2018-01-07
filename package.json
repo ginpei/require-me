@@ -2,7 +2,6 @@
   "name": "require-me",
   "version": "1.0.0",
   "description": "Add me dependencies on your package.json!",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
