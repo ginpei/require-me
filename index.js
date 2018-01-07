@@ -1,1 +1,1 @@
-module.exports = require('./lib/docker.js')
+module.exports = undefined
