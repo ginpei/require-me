@@ -1,3 +1,1 @@
-module.exports = {
-	message: 'Hello World!'
-}
+module.exports = undefined
