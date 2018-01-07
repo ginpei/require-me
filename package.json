@@ -1,3 +1,4 @@
 {
-  "name": "require-me"
+  "name": "require-me",
+  "private": true
 }
