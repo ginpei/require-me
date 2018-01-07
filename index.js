@@ -1,1 +1,3 @@
-module.exports = require('./lib/docker.js')
+module.exports = {
+	message: 'Hello World!'
+}
