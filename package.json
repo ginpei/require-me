@@ -1,0 +1,27 @@
+{
+  "name": "Wapcon-Docker",
+  "private": true,
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./main.js ./cli.js lib test",
+    "start": "npm run test",
+    "run-test": "NODE_ENV=test mocha test/",
+    "test": "npm run lint -s && npm run run-test -s"
+  },
+  "dependencies": {
+    "prompt": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "cross-env": "^5.1.3",
+    "eslint": "^4.14.0",
+    "ginpei-dotfiles": "github:ginpei/dotfiles",
+    "mocha": "^4.1.0",
+    "sinon": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=9"
+  }
+}
