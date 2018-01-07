@@ -1,19 +1,4 @@
 {
-  "name": "require-me",
-  "version": "1.0.0",
-  "description": "Add me dependencies on your package.json!",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/ginpei/require-me.git"
-  },
-  "author": "Ginpei",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ginpei/require-me/issues"
-  },
-  "homepage": "https://github.com/ginpei/require-me#readme"
+  "name": "something",
+  "private": true
 }
